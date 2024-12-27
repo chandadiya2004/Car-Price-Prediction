@@ -1,3 +1,6 @@
+![car price prediction](https://user-images.githubusercontent.com/28294942/182023255-27954e9e-fe88-44b0-b90c-514052ac2707.png)
+
+
 # Car Price Prediction Using Machine Learning
 This project utilizes a Random Forest model to forecast car prices based on various input features, with predictions delivered through an interactive Streamlit web application. Users can easily enter car details to get instant price estimates.
 
