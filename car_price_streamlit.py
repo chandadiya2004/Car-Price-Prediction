@@ -9,7 +9,7 @@ with open('predict_car_price.pkl', 'rb') as file:
     
 def predict_price(input_data):
     # Define the column names (these should match the columns used in your model)
-    columns = ['car_brand', 'km_driven','fuel', 'seller_type', 'transmission','owner','age']        
+    columns = ['car_brand', 'km_driven','fuel', 'seller_type', 'transmission','owner','year']        
     input_dataframe = pd.DataFrame([input_data],columns=columns)
     # Make prediction
     prediction = model.predict(input_dataframe)
@@ -29,7 +29,6 @@ km_driven = st.number_input("Kilometers Driven:", min_value=0, max_value=500000,
 
 current_year = datetime.now().year
 year = st.number_input("Car Manufacturing Year:", min_value=2000, max_value=current_year, value=2015)
-age = current_year - year
 
 fuel = st.selectbox("Fuel Type",['Petrol', 'Diesel', 'CNG', 'LPG', 'Electric'])
 
@@ -41,7 +40,7 @@ owner = st.selectbox("Owner Type",['First Owner', 'Second Owner', 'Fourth & Abov
        'Third Owner', 'Test Drive Car'])
 
 
-input_data = [car_brand,km_driven,fuel,seller_type,transmission,owner,age]
+input_data = [car_brand,km_driven,fuel,seller_type,transmission,owner,year]
 
 if st.button("Predict Selling Price"):
         predicted_price = predict_price(input_data)
