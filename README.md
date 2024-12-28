@@ -1,4 +1,4 @@
-![car price prediction](https://user-images.githubusercontent.com/28294942/182023255-27954e9e-fe88-44b0-b90c-514052ac2707.png)
+![car price prediction]("E:\Documents(p)\Machine_Learning_Project\ML_PROJECTS\Streamlit project\Car Price Prediction\car image.png")
 
 
 # Car Price Prediction Using Machine Learning
