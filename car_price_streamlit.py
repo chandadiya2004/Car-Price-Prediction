@@ -40,7 +40,7 @@ owner = st.selectbox("Owner Type",['First Owner', 'Second Owner', 'Fourth & Abov
        'Third Owner', 'Test Drive Car'])
 
 
-input_data = [year,car_brand,km_driven,fuel,seller_type,transmission,owner]
+input_data = [year,km_driven,fuel,sellor_type,transmission,owner]
 
 if st.button("Predict Selling Price"):
         predicted_price = predict_price(input_data)
