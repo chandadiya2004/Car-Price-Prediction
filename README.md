@@ -1,4 +1,4 @@
-![car price prediction]
+![car price prediction](https://api.deepai.org/job-view-file/c038d375-01f6-46bc-a1cf-addd2f75635b/outputs/output.jpg?art-image=true)
 
 
 # Car Price Prediction Using Machine Learning
