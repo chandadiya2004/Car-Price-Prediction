@@ -3,30 +3,20 @@ import pandas as pd
 import pickle
 from datetime import datetime
 
-# Load the trained pipeline model
+# Load the trained pipeline model (which includes preprocessing)
 with open("predict_car_price.pkl", 'rb') as file:
     model = pickle.load(file)
-
-def preprocess_input(input_data):
-    # Implement any preprocessing steps (e.g., encoding categorical variables)
-    # Example: Encode categorical data or apply one-hot encoding
-    # Assuming preprocessing is done here:
-    return input_data
 
 def predict_price(input_data):
     # Define the column names (these should match the columns used in your model)
     columns = ['car_brand', 'km_driven', 'fuel', 'seller_type', 'transmission', 'owner', 'year']
     
-    # Preprocess the input data
-    input_data = preprocess_input(input_data)
-    
-    # Create DataFrame
+    # Convert input to DataFrame (ensure the input matches model input format)
     input_dataframe = pd.DataFrame([input_data], columns=columns)
     
-    # Make prediction
+    # Make prediction using the model pipeline (which includes preprocessing)
     prediction = model.predict(input_dataframe)
     
-    # Return rounded price
     return round(prediction[0], 2)
 
 # Define the Streamlit app
