@@ -9,7 +9,7 @@ with open('predict_car_price.pkl', 'rb') as file:
     
 def predict_price(input_data):
     # Define the column names (these should match the columns used in your model)
-    columns = ['car_brand', 'km_driven','fuel', 'seller_type', 'transmission','owner','year']        
+    columns = ['car_brand','year','km_driven','fuel', 'seller_type', 'transmission','owner']        
     input_dataframe = pd.DataFrame([input_data],columns=columns)
     # Make prediction
     prediction = model.predict(input_dataframe)
