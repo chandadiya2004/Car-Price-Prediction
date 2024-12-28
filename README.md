@@ -1,4 +1,4 @@
-![car price prediction](https://pics.craiyon.com/2024-09-03/nB6gpu5GSJWjQGRRy2RMmQ.webp)
+![car price prediction]
 
 
 # Car Price Prediction Using Machine Learning
