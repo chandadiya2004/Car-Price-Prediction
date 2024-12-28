@@ -1,4 +1,4 @@
-![car price prediction]("E:\Documents(p)\Machine_Learning_Project\ML_PROJECTS\Streamlit project\Car Price Prediction\car image.png")
+![car price prediction](https://pics.craiyon.com/2024-09-03/nB6gpu5GSJWjQGRRy2RMmQ.webp)
 
 
 # Car Price Prediction Using Machine Learning
