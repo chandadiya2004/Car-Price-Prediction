@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime
 
 # Load the trained pipeline model
-with open("E:/Documents(p)/Machine_Learning_Project/ML_PROJECTS/Streamlit project/Car Price Prediction/predict_car_price.pkl", 'rb') as file:
+with open("predict_car_price.pkl", 'rb') as file:
     model = pickle.load(file)
     
 def predict_price(input_data):
