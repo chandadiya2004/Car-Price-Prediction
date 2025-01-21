@@ -1,4 +1,4 @@
-![car price prediction](https://www.hdwallpapers.in/download/lamborghini_murcielago_custom_car_4k_hd_cars-HD.jpg)
+![car price prediction](https://www.hdwallpapers.in/download/koenigsegg_gemera_2024_car_4k_hd_cars-HD.jpg)
 
 
 # Car Price Prediction Using Machine Learning
