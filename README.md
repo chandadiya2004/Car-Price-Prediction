@@ -1,4 +1,4 @@
-![car price prediction](https://www.hdwallpapers.in/download/koenigsegg_gemera_2024_car_4k_hd_cars-HD.jpg)
+![car price prediction](https://wallpapers.com/images/hd/black-and-white-car-1024-x-768-wallpaper-enz0iy2q1hsd3i45.jpg)
 
 
 # Car Price Prediction Using Machine Learning
