@@ -1,4 +1,4 @@
-![car price prediction](https://m.media-amazon.com/images/I/71F5Z9kJweL.png)
+![car price prediction](https://www.hdwallpapers.in/download/lamborghini_murcielago_custom_car_4k_hd_cars-HD.jpg)
 
 
 # Car Price Prediction Using Machine Learning
